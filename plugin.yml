@@ -1,0 +1,6 @@
+name: RankShop
+author: Idk
+version: 0.0.1
+api: 5.0.0
+main: Idk\Loader
+depend: [EconomyAPI, RanksSystem]

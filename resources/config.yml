@@ -1,12 +1,18 @@
 rank1: "&l&bRank1"
 ranks1Cost: 100
+SetRankCommand1: "ranks setrank "'. {player} . '"rank1 3d"
 rank2: "&l&bRank2"
 ranks2Cost: 80
+SetRankCommand2: "ranks setrank "'. {player} . '"rank"1" 3d"
 rank3: "&l&bRank3"
 ranks3Cost: 60
+SetRankCommand3: "ranks setrank "'. {player} . '"rank3 3d"
 rank4: "&l&bRank4"
 ranks4Cost: 40
+SetRankCommand4: "ranks setrank "'. {player} . '"rank3 3d"
 rank5: "&l&bRank5"
 ranks5Cost: 20
+SetRankCommand5: "ranks setrank "'. {player} . '"rank4 3d"
 rank6: "&l&bRank6"
 ranks6Cost: 10
+SetRankCommand6: "ranks setrank "'. {player} . '"rank5 3d"

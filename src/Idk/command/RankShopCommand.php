@@ -2,9 +2,11 @@
 
 namespace Idk\command;
 
+use Idk\Utils\Menu;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\lang\Translatable;
+use pocketmine\player\Player;
 
 class RankShopCommand extends Command
 {
@@ -19,6 +21,9 @@ class RankShopCommand extends Command
      */
     public function execute(CommandSender $player, string $label, array $args): void
     {
-        // TODO: Implement execute() method.
+        if (!$player instanceof Player)
+            return;
+
+        Menu::open($player);
     }
 }
